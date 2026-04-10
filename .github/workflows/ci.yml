@@ -1,0 +1,8 @@
+name: ci
+
+on:
+  workflow_dispatch:
+
+jobs:
+  ci:
+    uses: harvey1327/shared-workflows/.github/workflows/shared-ci.yml@v1
